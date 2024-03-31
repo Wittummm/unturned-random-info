@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/general/battleye-does-not-start-automatically-on-mac-or-linux/"}
+{"dg-publish":true,"permalink":"/general/battleye-does-not-start-automatically-on-mac-or-linux/","tags":["gardenEntry"]}
 ---
 
 
