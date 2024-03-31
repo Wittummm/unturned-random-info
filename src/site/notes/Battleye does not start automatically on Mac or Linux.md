@@ -1,8 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/battleye-does-not-start-automatically-on-mac-or-linux/","created":"2024-03-31T15:09:07.215+07:00","updated":"2024-03-31T15:52:39.450+07:00"}
+{"dg-publish":true,"permalink":"/battleye-does-not-start-automatically-on-mac-or-linux/","created":"2024-03-31T15:09:07.215+07:00","updated":"2024-03-31T16:10:37.262+07:00"}
 ---
-
-
 
 ref: https://github.com/SmartlyDressedGames/Unturned-3.x-Community/issues/4403
 
