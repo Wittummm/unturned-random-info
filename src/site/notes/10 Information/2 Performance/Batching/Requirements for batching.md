@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/2-performance/batching/requirements-for-batching/","created":"2024-03-31T21:20:28.137+07:00","updated":"2024-03-31T22:34:26.376+07:00"}
+{"dg-publish":true,"permalink":"/10-information/2-performance/batching/requirements-for-batching/","created":"2024-03-31T21:20:28.137+07:00","updated":"2024-03-31T22:38:28.325+07:00"}
 ---
 
 - ##### Material
@@ -17,4 +17,4 @@
 	- **Mesh** needs to be **cpu-readable**(might not be good to enable on a high memory model as cpu-readable generally increases ram usage)
 
 #### Sources
-* [[10 Information/2 Performance/Batching/Sources\|Source File: Assembly-CSharp/SDG.Unturned/LevelBatching.cs]]
+* [[10 Information/2 Performance/Batching/Z Source0\|Source File: Assembly-CSharp/SDG.Unturned/LevelBatching.cs]]
