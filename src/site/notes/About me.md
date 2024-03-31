@@ -2,7 +2,5 @@
 {"dg-publish":true,"permalink":"/about-me/"}
 ---
 
-
-My Github
-My personal documentation of Unturned
-My blog
+[My personal documentation of Unturned](https://wittummm.gitbook.io/unturned-docs/)
+My blog using Medium
