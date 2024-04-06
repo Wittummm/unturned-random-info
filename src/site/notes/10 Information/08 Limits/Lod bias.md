@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/08-limits/lod-bias/","created":"2024-04-06T15:59:08.964+07:00","updated":"2024-04-06T21:00:58.692+07:00"}
+{"dg-publish":true,"permalink":"/10-information/08-limits/lod-bias/","created":"2024-04-06T15:59:08.964+07:00","updated":"2024-04-06T21:01:25.647+07:00"}
 ---
 
 ```csharp
@@ -12,3 +12,4 @@ QualitySettings.lodBias = 2f + normalizedDrawDistance * 3f + Mathf.Clamp(Provide
 * **Lod bias adds onto the in-game value**
 
 Source: [SDG.Unturned/GraphicsSettings.cs](https://raw.githubusercontent.com/Unturned-Datamining/Unturned-Datamining/4559b157f74267d2921f195444d13de7de4febe7/Assembly-CSharp/SDG.Unturned/GraphicsSettings.cs) 
+#lod-bias #lod #performance
