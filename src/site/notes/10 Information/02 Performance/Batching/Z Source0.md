@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/02-performance/batching/z-source0/","created":"2024-03-31T22:31:54.842+07:00","updated":"2024-03-31T22:34:44.098+07:00"}
+{"dg-publish":true,"permalink":"/10-information/02-performance/batching/z-source0/","created":"2024-03-31T22:31:54.842+07:00","updated":"2024-04-06T21:03:11.064+07:00"}
 ---
 
 (This is so the main page isnt lengthy)
@@ -64,3 +64,4 @@ private bool CanBatchMesh(Mesh mesh, Renderer renderer)
         return false;
     }
 ```
+#source-redirect
