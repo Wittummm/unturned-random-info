@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/02-performance/batching/requirements-for-batching/","created":"2024-03-31T21:20:28.137+07:00","updated":"2024-03-31T22:38:28.325+07:00"}
+{"dg-publish":true,"permalink":"/10-information/02-performance/batching/requirements-for-batching/","created":"2024-03-31T21:20:28.137+07:00","updated":"2024-04-06T21:02:58.001+07:00"}
 ---
 
 - ##### Material
@@ -18,3 +18,4 @@
 
 #### Sources
 * [[10 Information/02 Performance/Batching/Z Source0\|Source File: Assembly-CSharp/SDG.Unturned/LevelBatching.cs]]
+#requirements #batching
