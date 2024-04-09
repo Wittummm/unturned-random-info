@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/00-assets/all-asset-classes/","created":"2024-04-09T20:39:59.883+07:00","updated":"2024-04-09T21:30:35.105+07:00"}
+{"dg-publish":true,"permalink":"/10-information/00-assets/all-asset-classes/","created":"2024-04-09T20:39:59.883+07:00","updated":"2024-04-09T21:37:25.958+07:00"}
 ---
 
 * AirdropAsset
@@ -62,3 +62,10 @@
 	- ItemOilPumpAsset
 	- ItemOpticAsset
 	- ItemPantsAsset
+
+Sources:
+[Official Documentation](https://docs.smartlydressedgames.com/en/stable/) 
+[SDG.Unturned](https://github.com/Unturned-Datamining/Unturned-Datamining/tree/linux-client-preview/Assembly-CSharp/SDG.Unturned) for confirming classes
+
+Connections: 
+[Witt's Unturned Documentation: All Asset Classes(Categorized)](https://wittummm.gitbook.io/unturned-docs/modding-assets-1/assets/all-classes) 
