@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/00-assets/physics-material-extension-asset/","created":"2024-04-09T21:07:47.915+07:00","updated":"2024-04-09T21:24:27.162+07:00"}
+{"dg-publish":true,"permalink":"/10-information/00-assets/physics-material-extension-asset/","created":"2024-04-09T21:07:47.915+07:00","updated":"2024-04-09T21:27:01.471+07:00"}
 ---
 
 ```csharp
