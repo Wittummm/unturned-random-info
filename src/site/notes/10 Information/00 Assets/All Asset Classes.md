@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/00-assets/all-asset-classes/","created":"2024-04-09T20:39:59.883+07:00","updated":"2024-04-09T21:26:26.261+07:00"}
+{"dg-publish":true,"permalink":"/10-information/00-assets/all-asset-classes/","created":"2024-04-09T20:39:59.883+07:00","updated":"2024-04-09T21:30:35.105+07:00"}
 ---
 
 * AirdropAsset
