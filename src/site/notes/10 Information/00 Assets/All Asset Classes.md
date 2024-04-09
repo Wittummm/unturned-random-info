@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/00-assets/all-asset-classes/","created":"2024-04-09T20:39:59.883+07:00","updated":"2024-04-09T21:20:21.485+07:00"}
+{"dg-publish":true,"permalink":"/10-information/00-assets/all-asset-classes/","created":"2024-04-09T20:39:59.883+07:00","updated":"2024-04-09T21:26:26.261+07:00"}
 ---
 
 * AirdropAsset
@@ -17,7 +17,7 @@
 * VendorAsset
 * OutfitAsset
 * PhysicsMaterialAsset
-* [PhysicsMaterialExtensionAsset](obsidian://open?vault=Unturned%20Random%20Info&file=10%20Information%2F00%20Assets%2FPhysicsMaterialExtensionAsset)
+* [PhysicsMaterialExtensionAsset](https://unturned-random-info.vercel.app/10-information/00-assets/physics-material-extension-asset/)
 * ResourceAsset
 * SpawnAsset
 * StereoSongAsset
