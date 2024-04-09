@@ -1,0 +1,64 @@
+---
+{"dg-publish":true,"permalink":"/10-information/00-assets/all-asset-classes/","created":"2024-04-09T20:39:59.883+07:00","updated":"2024-04-09T21:20:21.485+07:00"}
+---
+
+* AirdropAsset
+* AnimalAsset
+* CraftingBlacklistAsset
+* CurrencyAsset
+* EffectAsset
+* FoliageResourceInfoAsset
+* LevelAsset
+* MaterialPaletteAsset
+* ObjectAsset
+	* ObjectNPCAsset
+* QuestAsset
+* DialogueAsset
+* VendorAsset
+* OutfitAsset
+* PhysicsMaterialAsset
+* [PhysicsMaterialExtensionAsset](obsidian://open?vault=Unturned%20Random%20Info&file=10%20Information%2F00%20Assets%2FPhysicsMaterialExtensionAsset)
+* ResourceAsset
+* SpawnAsset
+* StereoSongAsset
+* VehicleAsset
+* VehiclePhysicsProfileAsset
+* WeatherAsset
+* ZombieDifficultyAsset
+* ItemAsset(Base Class)
+	- ItemArrestEndAsset
+	- ItemArrestStartAsset
+	- ItemBackpackAsset
+	- ItemBagAsset
+	- ItemBarrelAsset
+	- ItemBarricadeAsset
+	- ItemBeaconAsset
+	- ItemBoxAsset
+	- ItemCaliberAsset
+	- ItemChargeAsset
+	- ItemClothingAsset
+	- ItemCloudAsset
+	- ItemConsumeableAsset
+	- ItemDetonatorAsset
+	- ItemFarmAsset
+	- ItemFilterAsset
+	- ItemFisherAsset
+	- ItemFoodAsset
+	- ItemFuelAsset
+	- ItemGearAsset
+	- ItemGeneratorAsset
+	- ItemGlassesAsset
+	- ItemGripAsset
+	- ItemGrowerAsset
+	- ItemGunAsset
+	- ItemHatAsset
+	- ItemKeyAsset
+	- ItemLibraryAsset
+	- ItemMagazineAsset
+	- ItemMapAsset
+	- ItemMaskAsset
+	- ItemMedicalAsset
+	- ItemMeleeAsset
+	- ItemOilPumpAsset
+	- ItemOpticAsset
+	- ItemPantsAsset
