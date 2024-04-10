@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/05-guides/2-performance/alpha-clipping-vs-alpha-blending/","created":"2024-03-31T23:05:38.184+07:00","updated":"2024-04-06T21:19:45.685+07:00"}
+{"dg-publish":true,"permalink":"/05-guides/2-performance/alpha-clipping-vs-alpha-blending/","created":"2024-03-31T23:05:38.184+07:00","updated":"2024-04-10T19:10:11.840+07:00"}
 ---
 
 ### Alpha Clipping/Testing
@@ -23,4 +23,4 @@ Note: I'm unsure why "noisy or thin" textures decrease performance when using al
 	* Mobile(ARM) - 16x16 to 32x32
 	* Desktop - 32x32 to 64x64(occasionally 128x128+) or dynamic tile size 
 
-#transparency #alpha-clip #alpha-blend #overdraw #performance
+#transparency #alpha-clip #alpha-blend #overdraw #performance #not-specifically-unturned
