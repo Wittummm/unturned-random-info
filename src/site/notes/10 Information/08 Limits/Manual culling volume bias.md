@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/08-limits/manual-culling-volume-bias/","created":"2024-04-06T19:26:31.703+07:00","updated":"2024-04-10T14:19:38.070+07:00"}
+{"dg-publish":true,"permalink":"/10-information/08-limits/manual-culling-volume-bias/","created":"2024-04-06T19:26:31.703+07:00","updated":"2024-04-10T19:11:43.723+07:00"}
 ---
 
 ```csharp
@@ -21,5 +21,8 @@ Note that the keys related mainly `LOD` and `LOD_Bias`  are badly named as these
 Sources:
 * [SDG.Unturned/CullingVolume.cs; Line 124 ](https://github.com/Unturned-Datamining/Unturned-Datamining/blob/4559b157f74267d2921f195444d13de7de4febe7/Assembly-CSharp/SDG.Unturned/CullingVolume.cs#L124) 
 * [SDG.Unturned/ObjectAsset.cs](https://raw.githubusercontent.com/Unturned-Datamining/Unturned-Datamining/linux-client-preview/Assembly-CSharp/SDG.Unturned/ObjectAsset.cs) 
+
+Connections:
+[[10 Information/08 Limits/(INCONCLUSIVE) Manual object culling distance\|(INCONCLUSIVE) Manual object culling distance]] 
 
 #culling-bias #performance #culling #manual-culling 
