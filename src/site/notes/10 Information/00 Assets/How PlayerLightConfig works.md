@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/00-assets/how-player-light-config-works/","created":"2024-04-09T20:14:27.859+07:00","updated":"2024-04-09T20:27:44.636+07:00"}
+{"dg-publish":true,"permalink":"/10-information/00-assets/how-player-light-config-works/","created":"2024-04-09T20:14:27.859+07:00","updated":"2024-04-09T21:57:47.506+07:00"}
 ---
 
 ```csharp
@@ -24,3 +24,5 @@ if theres the `Light`  flag in the data file it will search for `SpotLight_Enabl
 Sources
 [SDG.Unturned/PlayerSpotLightConfig.cs](https://github.com/Unturned-Datamining/Unturned-Datamining/blob/4559b157f74267d2921f195444d13de7de4febe7/Assembly-CSharp/SDG.Unturned/PlayerSpotLightConfig.cs#L34)
 SDG.Unturned/ItemMeleeAsset.cs
+
+#property-explaination
