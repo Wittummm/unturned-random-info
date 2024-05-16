@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/00-assets/how-to-use-player-spot-light-config/","created":"2024-05-15T13:36:49.893+07:00","updated":"2024-05-15T13:46:00.549+07:00"}
+{"dg-publish":true,"permalink":"/10-information/00-assets/how-to-use-player-spot-light-config/","created":"2024-05-15T13:36:49.893+07:00","updated":"2024-05-16T14:19:44.110+07:00"}
 ---
 
 ```csharp
@@ -28,4 +28,4 @@ Extra reading:
 
 Sources:
 [PlayerSpotlightConfig.cs](https://github.com/Unturned-Datamining/Unturned-Datamining/blob/faa74e5dfb140c4cd77b5ce098de4338d50e839a/Assembly-CSharp/SDG.Unturned/ItemMeleeAsset.cs#L95) 
-#playerspotlightconfig #example 
+#playerspotlightconfig #example #light 
