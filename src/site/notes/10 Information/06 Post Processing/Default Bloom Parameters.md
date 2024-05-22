@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/06-post-processing/default-bloom-parameters/","created":"2024-05-22T15:00:56.867+07:00","updated":"2024-05-22T15:17:13.302+07:00"}
+{"dg-publish":true,"permalink":"/10-information/06-post-processing/default-bloom-parameters/","created":"2024-05-22T15:00:56.867+07:00","updated":"2024-05-22T21:49:47.186+07:00"}
 ---
 
 ```csharp
@@ -21,5 +21,5 @@ Extra:
 
 ---
 Sources: 
-[UnturnedPostProcess.cs, Line 37](<UnturnedPostProcess.cs, Line 37>) 
+[UnturnedPostProcess.cs, Line 37](https://github.com/Unturned-Datamining/Unturned-Datamining/blob/287de1473073c81e064c44e0a52ae2311bf2f7d6/Assembly-CSharp/SDG.Unturned/UnturnedPostProcess.cs#L37) 
 #bloom 
