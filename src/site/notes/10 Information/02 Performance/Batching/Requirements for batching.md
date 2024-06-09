@@ -1,7 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/02-performance/batching/requirements-for-batching/","created":"2024-03-31T21:20:28.137+07:00","updated":"2024-04-06T21:02:58.001+07:00"}
+{"dg-publish":true,"permalink":"/10-information/02-performance/batching/requirements-for-batching/","created":"2024-03-31T21:20:28.137+07:00","updated":"2024-06-09T15:00:45.754+07:00"}
 ---
 
+
+#### Texture Atlasing
 - ##### Material
 	- The **shaders**: `Standard (Decalable)`, `Standard (Specular setup) (Decalable)`, `Custom/Card`, `Custom/Foliage`
 	- **Filtering mode** must be: 
@@ -14,7 +16,12 @@
 	- **Mode** has to be `Opaque`
 - ##### Mesh
 	- **UVs** must **not be out-of-bounds**.
-	- **Mesh** needs to be **cpu-readable**(might not be good to enable on a high memory model as cpu-readable generally increases ram usage)
+
+
+#### Mesh batching
+**Mesh** needs to be **cpu-readable**(this is only for mesh batching, not atlasing)
+	- Not recommended to enable on models that will take up a lot of memory(lots of cumulative geometry data) as cpu-readable generally increases cpu memory usage.
+	- If you want to still batch on lots of geometry, [GPU instancing](https://unturned-random-info.vercel.app/10-information/02-performance/gpu-instancing/) is a good alternative.
 
 #### Sources
 * [[10 Information/02 Performance/Batching/Z Source0\|Source File: Assembly-CSharp/SDG.Unturned/LevelBatching.cs]]
