@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/00-assets/how-unturned-knows-what-asset-type-an-asset-is-v1/","created":"2024-06-14T14:13:12.242+07:00","updated":"2024-06-14T17:47:16.613+07:00"}
+{"dg-publish":true,"permalink":"/10-information/00-assets/how-unturned-knows-what-asset-type-an-asset-is-v1/","created":"2024-06-14T14:13:12.242+07:00","updated":"2024-06-14T17:47:48.302+07:00"}
 ---
 
 Version 1 is the confusing one, version 2 is quite simple as it is separated into `Metadata.Type` which states the AssetType and `Asset.Type` is the Asset's type. When the AssetType is stated using `Metadata.Type` the AssetType does not need to be defined by `Asset.Type`(? verify this)
@@ -15,3 +15,5 @@ All registers of the `Type` to `AssetType` [here](https://github.com/Unturned-Da
 Sources:
 None?(maybe official docs)
 My brain + discord questions :>
+
+#asset-definition #to-verify
