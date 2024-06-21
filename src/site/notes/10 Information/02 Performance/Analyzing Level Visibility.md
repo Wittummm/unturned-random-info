@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/02-performance/analyzing-level-visibility/","created":"2024-06-21T19:20:58.882+07:00","updated":"2024-06-21T20:23:35.946+07:00"}
+{"dg-publish":true,"permalink":"/10-information/02-performance/analyzing-level-visibility/","created":"2024-06-21T19:20:58.882+07:00","updated":"2024-06-21T20:35:17.734+07:00"}
 ---
 
 ```csharp
@@ -101,7 +101,7 @@ private static void update(int x, int y)
         }
     }
 ```
-
+ The visibility seems to do a general performance analysis and it should not be the final say in performance. Analysis by a person who understands the technicals of game performance will be better. The best performance indicator is to test and profile the map in practice, theory always loses.
 ---
 Sources:
 [EditorLevelVisibilityUI.cs; Line 134](https://raw.githubusercontent.com/Unturned-Datamining/Unturned-Datamining/linux-client-preview/Assembly-CSharp/SDG.Unturned/EditorLevelVisibilityUI.cs#L139)
