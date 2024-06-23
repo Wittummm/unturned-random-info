@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/02-performance/analyzing-level-visibility/","created":"2024-06-21T19:20:58.882+07:00","updated":"2024-06-22T16:44:11.779+07:00"}
+{"dg-publish":true,"permalink":"/10-information/02-performance/analyzing-level-visibility/","created":"2024-06-21T19:20:58.882+07:00","updated":"2024-06-23T21:39:31.541+07:00"}
 ---
 
 ```csharp
@@ -83,7 +83,7 @@ private static void update(int x, int y)
                         }
                     }
                 }
-                long num8 = (long)num4 * (long)num7; // ObjectCount + TotalTriangles -> PerfFactor
+                long num8 = (long)num4 * (long)num7; // ObjectCount * TotalTriangles -> PerfFactor
                 float quality = Mathf.Clamp01((float)(1.0 - ((double)num8 / 50_000_000.0))); // (1 - (PerfFactor/50Mil)) -> lower is worsep
                 sleekLabel.Text = localization.format("Point", num2, num3);
                 sleekLabel.Text = sleekLabel.Text + "\n" + localization.format("Objects", num4, num6); // Count and Percentage
