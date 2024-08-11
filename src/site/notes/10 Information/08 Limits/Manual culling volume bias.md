@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/08-limits/manual-culling-volume-bias/","created":"2024-04-06T19:26:31.703+07:00","updated":"2024-04-10T19:11:43.723+07:00"}
+{"dg-publish":true,"permalink":"/10-information/08-limits/manual-culling-volume-bias/","created":"2024-04-06T19:26:31.703+07:00","updated":"2024-07-15T21:40:51.410+07:00"}
 ---
 
 ```csharp
