@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/02-performance/gpu-instancing/","created":"2024-06-02T13:01:16.608+07:00","updated":"2024-06-09T14:35:49.868+07:00"}
+{"dg-publish":true,"permalink":"/10-information/02-performance/gpu-instancing/","created":"2024-06-02T13:01:16.608+07:00","updated":"2024-08-25T15:58:43.370+07:00"}
 ---
 
 Gpu instancing in Unturned does work but unity already auto batches nearby meshes. If you are sure that your object will be used a lot then enable Gpu Instancing.
@@ -13,7 +13,7 @@ Requirements:
 Then cumulative vertex count of all the instances of the target mesh should be more than 256 vertices. So for a lot of meshes in Unturned, you wouldn't use GPU instancing on.
 
 Cases where you *might* want to use GPU instancing:
-- Most buildings
+- High poly buildings that are used often (>6)
 - Some high poly assets
 
 Sources: 
