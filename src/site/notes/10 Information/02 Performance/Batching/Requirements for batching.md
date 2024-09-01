@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/02-performance/batching/requirements-for-batching/","created":"2024-03-31T21:20:28.137+07:00","updated":"2024-06-09T15:21:10.243+07:00"}
+{"dg-publish":true,"permalink":"/10-information/02-performance/batching/requirements-for-batching/","created":"2024-03-31T21:20:28.137+07:00","updated":"2024-09-01T14:48:21.054+07:00"}
 ---
 
 
@@ -27,10 +27,11 @@
 	- Not recommended to enable on models that will take up a lot of memory(lots of cumulative geometry data) as cpu-readable generally increases cpu memory usage.
 	- If you want to still batch on lots of geometry, [GPU instancing](https://unturned-random-info.vercel.app/10-information/02-performance/gpu-instancing/) is a good alternative.
 - Material needs to be the same.
+- Static batching will create a copy of the mesh. If there are a lot of the target mesh it may be copied multiple times, using more memory. [GPU Instancing](https://unturned-random-info.vercel.app/10-information/02-performance/gpu-instancing/) may be a better option for meshes with multiple instances.
 
 #### Conclusion:
-- GPU instancing for meshes that will have a lot of instances and geometry(like foliage). 
-- Static batching for meshes does not have a lot of instances but static batching does not require the same meshes.
+- GPU instancing for meshes that will have a lot of instances and geometry(like foliage, traffic objects, etc). 
+- Static batching for meshes that does not have a lot of instances, static batching does not require the identical meshes.
 
 #### Sources
 * [[10 Information/02 Performance/Batching/Z Source0\|Source File: Assembly-CSharp/SDG.Unturned/LevelBatching.cs]]
