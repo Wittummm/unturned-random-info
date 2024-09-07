@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/00-assets/documentation/vehicle-assets/","created":"2024-09-06T20:13:05.366+07:00","updated":"2024-09-07T12:53:17.619+07:00"}
+{"dg-publish":true,"permalink":"/10-information/00-assets/documentation/vehicle-assets/","created":"2024-09-06T20:13:05.366+07:00","updated":"2024-09-07T13:00:55.860+07:00"}
 ---
 
 Deprecated properties are not listed.
@@ -29,13 +29,10 @@ Deprecated properties are not listed.
 | Cam_Follow_Distance  | float32 | 5.5           |
 | Cam_Passenger_Offset | float32 | 0             |
 ###### General Vehicle Configuration
-[[#Can_Be_Locked bool`true`]]
-
 | Property      | Type | Default Value |
 | ------------- | ---- | ------------- |
 | Can_Be_Locked | bool | true          |
-##### Can_Be_Locked bool`true`
-
+##### Can_Be_Locked bool *true*
 Whether or not the vehicle can be locked by a player.
 
 #
