@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/00-assets/documentation/vehicle-assets/","created":"2024-09-06T20:13:05.366+07:00","updated":"2024-09-07T12:52:35.060+07:00"}
+{"dg-publish":true,"permalink":"/10-information/00-assets/documentation/vehicle-assets/","created":"2024-09-06T20:13:05.366+07:00","updated":"2024-09-07T12:53:17.619+07:00"}
 ---
 
 Deprecated properties are not listed.
