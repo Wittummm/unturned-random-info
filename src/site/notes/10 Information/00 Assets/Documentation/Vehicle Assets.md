@@ -1,29 +1,29 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/00-assets/documentation/vehicle-assets/","created":"2024-09-06T20:13:05.366+07:00","updated":"2024-09-08T13:57:02.322+07:00"}
+{"dg-publish":true,"permalink":"/10-information/00-assets/documentation/vehicle-assets/","created":"2024-09-06T20:13:05.366+07:00","updated":"2024-09-08T14:11:09.851+07:00"}
 ---
 
 Deprecated properties are not listed
 ### List of properties, categorized
 ##### Asset Configuration
-| Property                 | Type | Default Value | Description                                                                     |
-| ------------------------ | ---- | ------------- | ------------------------------------------------------------------------------- |
-| Bypass_Hash_Verification | flag | -             | "Disable hash verification check, and allow for mismatched files." (??, verify) |
+| Property                 | Type | Default | Description                                                                     |
+| ------------------------ | ---- | ------- | ------------------------------------------------------------------------------- |
+| Bypass_Hash_Verification | flag | -       | "Disable hash verification check, and allow for mismatched files." (??, verify) |
 ##### Bicycles
 | Property           | Type    | Default | Description           |
 | ------------------ | ------- | ------- | --------------------- |
 | Bicycle            | flag    | -       | Use bicycle animation |
 | Bicycle_Anim_Speed | float32 | 0       | -                     |
 ##### Visuals
-| Property                        | Type                                                                                                                                                                                   | Default Value                                                 |
-| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| AdditionalTransparentSections   | Array[string]                                                                                                                                                                          | -                                                             |
-| DefaultPaintColor_Configuration | <small>Dict([VehicleRandomPaintColorConfiguration](https://docs.smartlydressedgames.com/en/latest/assets/vehicle-asset.html#vehiclerandompaintcolorconfiguration-dictionary))</small>  | When `DefaultPaintColor_Mode` is `RandomHueOrGrayscale`       |
-| DefaultPaintColor_Mode          | [EVehicleDefaultPaintColorMode](https://docs.smartlydressedgames.com/en/latest/assets/vehicle-asset.html#evehicledefaultpaintcolormode)                                                | Overrides how paint colors should be picked                   |
-| DefaultPaintColors              | Array[color]                                                                                                                                                                           | When configured, auto sets `DefaultPaintColor_Mode` to `List` |
+| Property                        | Type                                                                                                                                                                                  | Default | Description                                                   |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------- |
+| AdditionalTransparentSections   | Array[string]                                                                                                                                                                         |         | -                                                             |
+| DefaultPaintColor_Configuration | <small>Dict([VehicleRandomPaintColorConfiguration](https://docs.smartlydressedgames.com/en/latest/assets/vehicle-asset.html#vehiclerandompaintcolorconfiguration-dictionary))</small> |         | When `DefaultPaintColor_Mode` is `RandomHueOrGrayscale`       |
+| DefaultPaintColor_Mode          | [EVehicleDefaultPaintColorMode](https://docs.smartlydressedgames.com/en/latest/assets/vehicle-asset.html#evehicledefaultpaintcolormode)                                               |         | Overrides how paint colors should be picked                   |
+| DefaultPaintColors              | Array[color]                                                                                                                                                                          |         | When configured, auto sets `DefaultPaintColor_Mode` to `List` |
 ##### Building
 | Property                 | Type                                                                                                                                                  | Default Value |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| Buildable_Placement_Rule | [EVehicleBuildablePlacementRule](https://docs.smartlydressedgames.com/en/latest/assets/vehicle-asset.html#evehiclebuildableplacementrule-enumeration) | None          |
+| Buildable_Placement_Rule | [EVehicleBuildablePlacementRule](https://docs.smartlydressedgames.com/en/latest/assets/vehicle-asset.html#evehiclebuildableplacementrule-enumeration) | `None`        |
 ##### Camera
 | Property             | Type    | Default |                                                                                  |
 | -------------------- | ------- | ------- | -------------------------------------------------------------------------------- |
@@ -89,7 +89,7 @@ When `Engine` is `Plane`
 | Drops_Table_ID | uint16 | 962     | -           |
 ##### Misc
 
-| Property         | Type                                                                                                                                                           | Default  | Descriptiion                                                            |
+| Property         | Type                                                                                                                                                           | Default  | Description                                                             |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------------- |
 | EngineSound_Type | [EVehicleEngineSoundType](https://docs.smartlydressedgames.com/en/latest/assets/vehicle-asset.html#doc-assets-vehicle-evehicleenginesoundtype)                 | `Legacy` | How engine sound is controlled                                          |
 | EngineSound      | Dict([RpmEngineSoundConfiguration](https://unturned-random-info.vercel.app/10-information/00-assets/documentation/vehicle-assets#RpmEngineSoundConfiguration)) | -        | Used to tune engine soundp when `EngineSound_Type` is `EngineRPMSimple` |
