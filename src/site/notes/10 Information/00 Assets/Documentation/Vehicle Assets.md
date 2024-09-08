@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/00-assets/documentation/vehicle-assets/","created":"2024-09-06T20:13:05.366+07:00","updated":"2024-09-08T14:11:09.851+07:00"}
+{"dg-publish":true,"permalink":"/10-information/00-assets/documentation/vehicle-assets/","created":"2024-09-06T20:13:05.366+07:00","updated":"2024-09-08T14:18:49.080+07:00"}
 ---
 
-Deprecated properties are not listed
+Deprecated properties are not listed.
 ### List of properties, categorized
 ##### Asset Configuration
 | Property                 | Type | Default | Description                                                                     |
