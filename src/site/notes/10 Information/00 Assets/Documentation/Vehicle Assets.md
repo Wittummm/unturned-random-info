@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-information/00-assets/documentation/vehicle-assets/","created":"2024-09-06T20:13:05.366+07:00","updated":"2024-09-08T14:27:20.173+07:00"}
+{"dg-publish":true,"permalink":"/10-information/00-assets/documentation/vehicle-assets/","created":"2024-09-06T20:13:05.366+07:00","updated":"2024-09-13T08:58:08.616+07:00"}
 ---
 
 Deprecated properties are not listed.
@@ -102,7 +102,7 @@ When `Engine` is `Plane`
 | IdleVolume | float32 | 0       |
 | MaxPitch   | float32 | 0       |
 | MaxVolume  | float32 | 0       |
-
+You might want to know [WheelCollider](https://docs.unity3d.com/Manual/class-WheelCollider.html)'s properties.
 #
 ---
 Sources:
